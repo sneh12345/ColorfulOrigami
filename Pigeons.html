@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<div class="font">
+    <ul>
+        <li>The common city pigeon (Columba livia), also known as the rock pigeon, might be the first bird humankind ever domesticated. You can see them in art dating back as far as 4500 BCE in modern Iraq, and they've been a valuable source of food for thousands of years. </li>
+        
+        <li>Pigeon-breeding was a common hobby in Victorian England for everyone from well-off businessmen to average Joes, leading to some fantastically weird birds. Few hobbyists had more enthusiasm for the breeding process than Charles Darwin, who owned a diverse flock, joined London pigeon clubs, and hobnobbed with famous breeders. Darwin's passion for the birds influenced his 1868 book The Variation of Animals and Plants Under Domestication, which has not one but two chapters about pigeons (dogs and cats share a single chapter).</li>
+        
+        <li>In a 2017 Current Biology study, researchers showed captive pigeons a series of digital lines on a computer screen for either two or eight seconds. Some lines were short, measuring about 2.3 inches across; others were four times longer. The pigeons were trained to evaluate either the length of the line or how long it was displayed. They found that the more time a line was displayed, the longer in length the pigeon judged it to be. The reverse was true too: If the pigeons encountered a longer line, they thought it existed in time for a greater duration. Pigeons, the scientists concluded, understand the concepts of both time and space; the researchers noted "similar results have been found with humans and other primates."</li>
+        
+        <li>The birds can do this even if they've been transported in isolation—with no visual, olfactory, or magnetic clues—while scientists rotate their cages so they don't know what direction they're traveling in. How they do this is a mystery, but people have been exploiting the pigeon's navigational skills since at least 3000 BCE, when ancient peoples would set caged pigeons free and follow them to nearby land.</li>
+        
+        <li>Pigeons' homing talents continued to shape history during the 20th century. In both World Wars, rival nations had huge flocks of pigeon messengers. (America alone had 200,000 at its disposal in WWII.) By delivering critical updates, the avians saved thousands of human lives. One racing bird named Cher Ami completed a mission that led to the rescue of 194 stranded U.S. soldiers on October 4, 1918.</li>
+        </ul>
+</div>
+
+<style>
+.font{
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+    font-stretch: narrower;
+    border-color: aquamarine;
+  
+}
+
+div {
+  background-color: lightgrey;
+  width: 900px;
+  border: 30px solid green;
+  padding: 50px;
+  margin: 20px;
+  height: 450px;
+  
+}
+
+::selection {
+    background-color: blue;
+    color: white;
+
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 145px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+</style>
+
+<a button href = "index.html" class="button" style="vertical-align:middle"><span>Go back!</span></button></a>
